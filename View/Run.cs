@@ -1,4 +1,4 @@
-﻿using QuanlycuahangbanQuanAo.Bussiness;
+using QuanlycuahangbanQuanAo.Bussiness;
 using QuanlycuahangbanQuanAo.DataAccess;
 using System;
 using System.Collections.Generic;
@@ -462,11 +462,11 @@ namespace QuanlycuahangbanQuanAo.View
                 Console.WriteLine("                                 -----------------------------------------");
                 Console.WriteLine("                                |                Đăng nhập                |");
                 Console.WriteLine("                                 -----------------------------------------");
-                Console.Write("                                |         Tài khoản:");
+                Console.Write("                                |         Tài khoản(admin):");
                 String tk = Console.ReadLine();
-                Console.Write("                                |         Mật khẩu: ");
+                Console.Write("                                |         Mật khẩu(admin): ");
                 String mk = Console.ReadLine();
-                if (tk == "minhanh2001" && mk == "12345678")
+                if (tk == "admin" && mk == "admin")
                 {
                     Console.Clear();
                     DocAllFile();
